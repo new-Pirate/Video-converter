@@ -1,0 +1,25 @@
+{
+  "name": "video-converter",
+  "version": "1.0.0",
+  "description": "Просто видео конвертер на TS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/new-Pirate/Video-converter.git"
+  },
+  "author": "new_P1rate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/new-Pirate/Video-converter/issues"
+  },
+  "homepage": "https://github.com/new-Pirate/Video-converter#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1"
+  }
+}
