@@ -10,7 +10,7 @@ export class FileSevice {
       return false;
     }
   }
-  private gerFilePath(path: string, name: string, ext: string): string {
+  public getFilePath(path: string, name: string, ext: string): string {
     if (!isAbsolute(path)) {
       path = join(__dirname + '/' + path);
     }
